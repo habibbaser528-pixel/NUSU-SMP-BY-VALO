@@ -16,10 +16,13 @@
       padding: 2rem 1rem;
       background: rgba(0, 0, 0, 0.7);
     }
+    header img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
     header h1 {
       font-size: 2.5rem;
       color: #ffcc00;
-      margin: 0;
     }
     nav {
       display: flex;
@@ -41,6 +44,18 @@
     h2 {
       color: #ff3399;
     }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border: 3px solid #ff3399;
+      border-radius: 10px;
+    }
     footer {
       text-align: center;
       background: #110011;
@@ -52,6 +67,7 @@
 </head>
 <body>
   <header>
+    <img src="nusu-logo.png" alt="NUSU Logo">
     <h1>NUSU SMP S2</h1>
   </header>
 
@@ -89,18 +105,22 @@
   <section id="join">
     <h2>Join Now</h2>
     <p>আমাদের সার্ভারে যোগ দিতে চাইলে নিচের Discord সার্ভারে জয়েন করো:</p>
-    <a href="https://discord.gg/NvCDmXac" style="color: #66ff66; font-weight: bold;">🔗 Join Discord</a>
+    <a href="https://discord.gg/your-invite-link" style="color: #66ff66; font-weight: bold;">🔗 Join Discord</a>
   </section>
 
   <section id="gallery">
     <h2>Gallery</h2>
-    <p>Gallery images are not available at the moment.</p>
+    <div class="gallery">
+      <img src="screenshot1.jpg" alt="Gameplay Screenshot 1">
+      <img src="screenshot2.jpg" alt="Gameplay Screenshot 2">
+      <img src="screenshot3.jpg" alt="Gameplay Screenshot 3">
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <p>📧 Email: habibbaser528@gmail.com<br/>
-       📱 Discord: NUSU#1234
+       🌐 IP: NUSUSMPS2_Public.aternos.me:13498
     </p>
   </section>
 
